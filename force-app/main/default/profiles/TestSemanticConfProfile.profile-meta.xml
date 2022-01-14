@@ -407,11 +407,11 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
+        <modifyAllRecords>false</modifyAllRecords>
         <object>ST_Cust_Obj__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -467,6 +467,10 @@
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
+        <name>AIViewInsightObjects</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ActivateContract</name>
     </userPermissions>
     <userPermissions>
@@ -480,6 +484,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowUniversalSearch</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowViewKnowledge</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -647,6 +659,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EditKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>EditMyDashboards</name>
     </userPermissions>
     <userPermissions>
@@ -703,6 +719,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>FieldServiceAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>GiveRecognitionBadge</name>
     </userPermissions>
     <userPermissions>
@@ -716,10 +736,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ImportPersonal</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>InboundMigrationToolsUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -839,6 +855,14 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageKnowledgeImportExport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageLeads</name>
     </userPermissions>
     <userPermissions>
@@ -895,7 +919,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageSandboxes</name>
+        <name>ManageSearchPromotionRules</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -912,14 +936,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageSynonyms</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageTranslation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageTrustMeasures</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -955,7 +971,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>OutboundMigrationToolsUser</name>
+        <name>OmnichannelInventorySync</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -983,10 +999,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ScheduleJob</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ScheduleReports</name>
     </userPermissions>
     <userPermissions>
@@ -999,7 +1011,15 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>SendExternalEmailAvailable</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShareInternalArticles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1059,6 +1079,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>UseOmnichannelInventoryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>UseTeamReassignWizards</name>
     </userPermissions>
     <userPermissions>
@@ -1080,6 +1104,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewDataCategories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDataLeakageEvents</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1107,6 +1135,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ViewPlatformEvents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ViewPublicDashboards</name>
     </userPermissions>
     <userPermissions>
@@ -1123,10 +1155,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewTrustMeasures</name>
+        <name>ViewUserPII</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewUserPII</name>
+        <name>WorkCalibrationUser</name>
     </userPermissions>
 </Profile>
