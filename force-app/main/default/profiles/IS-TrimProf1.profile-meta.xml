@@ -14,7 +14,7 @@
         <apexClass>ConverterTempIS</apexClass>
         <enabled>false</enabled>
     </classAccesses>
-      <classAccesses>
+    <classAccesses>
         <apexClass>ConverterTempTRIM</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -27,6 +27,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
+    <customMetadataTypeAccesses>
+        <enabled>true</enabled>
+        <name>IsTestMetadata1__mdt</name>
+    </customMetadataTypeAccesses>
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Active__c</field>
@@ -340,6 +344,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Formato de Cerrar caso</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IsTestMetadata1__mdt-IsTestMetadata1 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>MyFirstObject__c-MyFirstObject Layout</layout>
