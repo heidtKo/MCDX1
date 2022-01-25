@@ -5,14 +5,14 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>ST Label1</shortDescription>
-        <value>ST Label1</value>
+        <value>ST Label1 in dev2org</value>
     </labels>
     <labels>
         <fullName>ST_Label2</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>ST Label2</shortDescription>
-        <value>ST Label2</value>
+        <value>ST Label2 in dev2org</value>
     </labels>
     <labels>
         <fullName>ST_Label3</fullName>
