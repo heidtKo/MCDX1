@@ -1,0 +1,26 @@
+{
+    "sourceApiVersion": "45.0",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "definitionFile": "config/project-scratch-def.json",
+            "default": true
+        },
+        {
+            "path": "dx_unlockedPackage1 - 1.0.0.0",
+            "definitionFile": "config/project-scratch-def.json",
+            "default": false
+        },
+        {
+            "path": "CF_SalesArtifact - 1.0.0.0",
+            "definitionFile": "config/project-scratch-def.json",
+            "default": false
+        }
+    ],
+    "packageAliases": {
+        "CF_SalesArtifact": "04t3X000002umpUQAQ",
+        "dx_unlockedPackage1": "04t3X000002umptQAA"
+    },
+    "namespace": ""
+}

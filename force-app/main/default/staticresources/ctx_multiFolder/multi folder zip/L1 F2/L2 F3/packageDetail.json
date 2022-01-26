@@ -1,0 +1,18 @@
+{
+    "packages": [
+        {
+            "subscriberVersionId": "04t3X000002umptQAA",
+            "packageVersion": "1.0.0.0",
+            "packageName": "dx_unlockedPackage1 - 1.0.0.0",
+            "packageId": "04t3X000002umptQAA",
+            "installationKey": null
+        },
+        {
+            "subscriberVersionId": "04t3X000002umpUQAQ",
+            "packageVersion": "1.0.0.0",
+            "packageName": "CF_SalesArtifact - 1.0.0.0",
+            "packageId": "04t3X000002umpUQAQ",
+            "installationKey": null
+        }
+    ]
+}

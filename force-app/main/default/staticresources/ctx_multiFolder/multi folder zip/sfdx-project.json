@@ -1,0 +1,48 @@
+{
+    "packageDirectories": [
+        {
+            "path": "MCDX_Unpackaged",
+            "package": "MCDX_Unpackaged",
+            "versionName": "CoreObjects",
+            "versionNumber": "53.0.0.NEXT",
+            "default": false
+        },
+        {
+            "path": "Package_One",
+            "package": "Package One",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        },
+        {
+            "path": "Package_One",
+            "package": "cleanDH1_Package1",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": true
+        },
+        {
+            "path": "Package_One",
+            "package": "PackageTwo",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        },
+        {
+            "path": "Package_One",
+            "package": "PackageTwo1",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "53.0",
+    "packageAliases": {
+        "Package One": "0Ho5g0000008OXFCA2",
+        "cleanDH1_Package1": "0Ho8d000000CaRRCA0",
+        "PackageTwo": "0Ho8d000000CaRWCA0",
+        "PackageTwo1": "0Ho5g0000008OXtCAM"
+    }
+}
