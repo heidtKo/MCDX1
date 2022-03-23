@@ -28,4 +28,11 @@
         <shortDescription>label4</shortDescription>
         <value>label4</value>
     </labels>
+    <labels>
+        <fullName>test_123</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>test 123</shortDescription>
+        <value>23</value>
+    </labels>
 </CustomLabels>
